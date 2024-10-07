@@ -13,7 +13,7 @@ A script to generate a message and sign it with GPG.
 The gpg-encrypt.sh script encrypts a file using the recipient's public key.
 
 ```bash
-sh gpg-encrypt.sh -e recipient@example.com -f message.txt -pk public-key.asc
+sh gpg-encrypt.sh -e email@example.com -f message.txt -pk public-key.asc
 
 ## Example
 # Export your public key (if not already done)
