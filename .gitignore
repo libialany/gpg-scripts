@@ -2,3 +2,5 @@
 .env
 .pem
 .crt
+private-key.asc
+**private**

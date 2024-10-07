@@ -1,4 +1,4 @@
-# PGP stuff
+# GPG stuff
 
 A script to generate a message and sign it with GPG.
 
