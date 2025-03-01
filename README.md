@@ -8,6 +8,12 @@ A script to generate a message and sign it with GPG.
 - Public key
 - Make the scripts executable (`chmod +x gpg-encrypt.sh gpg-decrypt.sh`)
 
+## Create a public key(optional)
+
+```bash
+gpg --generate-key
+```
+
 ## Encrypt
 
 The gpg-encrypt.sh script encrypts a file using the recipient's public key.
